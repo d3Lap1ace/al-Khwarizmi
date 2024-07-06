@@ -1,7 +1,7 @@
 package com.leecode.solution;
 
-
-import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 
 /**
  * @classname al-Khwarizmi
@@ -14,5 +14,12 @@ import java.util.Arrays;
 
 
 public class Solution {
-
+    public List<Integer> findAnagrams(String s, String p) {
+        int plength = p.length();
+        HashSet<Character> set = new HashSet<>();
+        for (int i = 0; i < plength; i++) {
+            set.add(p.charAt(i));
+        }
+        return null;
+    }
 }
