@@ -1,7 +1,6 @@
 package com.leecode.solution;
 
 import java.util.HashSet;
-import java.util.List;
 
 /**
  * @classname al-Khwarizmi
@@ -14,12 +13,18 @@ import java.util.List;
 
 
 public class Solution {
-    public List<Integer> findAnagrams(String s, String p) {
-        int plength = p.length();
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length();
+        int ans = 0;
         HashSet<Character> set = new HashSet<>();
-        for (int i = 0; i < plength; i++) {
-            set.add(p.charAt(i));
+        for(int fast = 0, slow = 0; fast < n; ++fast){
+            char c = s.charAt(fast);
+            if(set.contains(c)){
+                slow++;
+            }
+            set.add(c);
+            ans = Math.max(ans,fast-slow+1);
         }
-        return null;
+        return ans;
     }
 }

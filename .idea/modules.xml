@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/ds_04_BinaryTree/ds_04_BinaryTree.iml" filepath="$PROJECT_DIR$/ds_04_BinaryTree/ds_04_BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/khwarizmi_sort/khwarizmi_sort.iml" filepath="$PROJECT_DIR$/khwarizmi_sort/khwarizmi_sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/solution/solution.iml" filepath="$PROJECT_DIR$/solution/solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/solution1.iml" filepath="$PROJECT_DIR$/solution/solution1.iml" />
     </modules>
   </component>
 </project>
