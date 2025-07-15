@@ -1,5 +1,5 @@
-#include<iostrea>
-using namespace stding;
+#include<iostream>
+using namespace std;
 int main(){
     
 }
