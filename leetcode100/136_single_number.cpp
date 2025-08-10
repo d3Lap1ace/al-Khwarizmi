@@ -1,17 +1,16 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
 
-int main(){
+int main() {
     class Solution {
-        public:
-            int singleNumber(vector<int>& nums){
-                int result = 0;
-                for(int num : nums){
-                    result ^= num;
-                }
-                return result;
+      public:
+        int singleNumber(vector<int> &nums) {
+            int result = 0;
+            for (int num : nums) {
+                result ^= num;
             }
+            return result;
+        }
     };
 }
-
